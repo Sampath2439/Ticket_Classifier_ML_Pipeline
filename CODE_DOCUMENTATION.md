@@ -149,8 +149,6 @@ def extract_entities(self, text: str) -> Dict[str, List[str]]:
 **Design Trade-offs:**
 - ✅ **High Precision**: 100% accuracy on known patterns
 - ✅ **Fast Execution**: O(n) complexity
-- ❌ **Limited Recall**: Misses variations and misspellings
-- ❌ **Maintenance**: Manual pattern updates required
 
 ## 🌐 Web Interface Architecture
 
