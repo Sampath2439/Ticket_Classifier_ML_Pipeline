@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Customer Support Ticket Classification and Entity Extraction Pipeline
 
@@ -7,8 +6,6 @@ This module provides a comprehensive machine learning pipeline for:
 2. Extracting key entities (products, dates, complaint keywords)
 3. Providing an integrated prediction function
 
-Author: AI Assistant
-Date: 2024
 """
 
 import pandas as pd

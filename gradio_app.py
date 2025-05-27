@@ -276,7 +276,7 @@ class TicketClassifierApp:
 
                 # Example tickets
                 gr.Markdown("### 📝 Example Tickets (Click to try)")
-                examples = gr.Examples(
+                gr.Examples(
                     examples=[
                         ["My SmartWatch V2 is broken and stopped working after 3 days. Order #12345. This is urgent!"],
                         ["Can you tell me more about the warranty for PhotoSnap Cam? Is it available in blue?"],
@@ -350,10 +350,11 @@ def main():
 
     # Launch the interface
     interface.launch(
-        server_name="0.0.0.0",
-        server_port=7861,
-        share=True,
-        show_error=True
+        server_name="127.0.0.1",
+        server_port=8080,
+        share=False,
+        show_error=True,
+        debug=True
     )
 
 if __name__ == "__main__":
