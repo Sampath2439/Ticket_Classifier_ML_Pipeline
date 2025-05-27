@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-Test script for the Customer Support Ticket Classification Pipeline
-
-This script performs basic tests to ensure the pipeline works correctly.
-"""
-
 import sys
 import os
 import pandas as pd

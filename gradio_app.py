@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-Gradio Web Interface for Customer Support Ticket Classification
-
-This module provides an interactive web interface using Gradio for:
-1. Single ticket classification and entity extraction
-2. Batch processing of multiple tickets
-3. Real-time predictions with confidence scores
-
-Author: AI Assistant
-Date: 2024
-"""
-
 import gradio as gr
 import pandas as pd
 import json

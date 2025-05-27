@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Detailed Analysis of Urgency Level Prediction Issues
-
-This script investigates why the urgency level classifier has low accuracy (38%)
-and identifies potential data quality issues.
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
