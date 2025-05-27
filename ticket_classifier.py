@@ -1,13 +1,3 @@
-"""
-Customer Support Ticket Classification and Entity Extraction Pipeline
-
-This module provides a comprehensive machine learning pipeline for:
-1. Classifying customer support tickets by issue type and urgency level
-2. Extracting key entities (products, dates, complaint keywords)
-3. Providing an integrated prediction function
-
-"""
-
 import pandas as pd
 import numpy as np
 import re
@@ -20,8 +10,6 @@ from typing import Dict, List, Tuple, Any
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.pipeline import Pipeline

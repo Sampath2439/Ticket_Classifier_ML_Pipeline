@@ -352,7 +352,7 @@ def main():
     interface.launch(
         server_name="127.0.0.1",
         server_port=8080,
-        share=False,
+        share=True,
         show_error=True,
         debug=True
     )
