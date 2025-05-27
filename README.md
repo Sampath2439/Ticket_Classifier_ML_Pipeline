@@ -364,5 +364,5 @@ For questions or issues:
 
 ---
 
-**Built with ❤️ using Python, scikit-learn, NLTK, and Gradio**
+**Built with ❤️ using Python, scikit-learn, NLTK, and Gradio, **
 **Made by Batchu Gnana Sampath 😉**
